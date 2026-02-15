@@ -16,8 +16,15 @@ async function getProperties() {
 export default async function NewProjectsPage() {
   const projects = await getProperties();
   const base = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-  const resAll = await fetch(`${base}/api/properties`, { cache: 'no-store' });
-  const all = resAll.ok ? await resAll.json() : [];
+  let all = [];
+  try {
+    const resAll = await fetch(`${base}/api/properties`, { cache: 'no-store' });
+    if (resAll.ok) {
+      all = await resAll.json();
+    }
+  } catch {
+    // Handle fetch failure during static generation
+  }
   const displayList = projects.length > 0 ? projects : all.slice(0, 8);
 
   return (
