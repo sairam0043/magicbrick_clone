@@ -73,7 +73,7 @@ export default function Footer() {
               List your property
             </h3>
             <p className="mt-4 text-sm text-neutral-600">
-              Get genuine leads. Post your property for free on MagicBricks.
+              Get genuine leads. Post your property for free on Real Estate Guru.
             </p>
             <Link
               href="/add"
@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-neutral-200 pt-8 text-center text-sm text-neutral-500">
-          <p>MagicBricks Clone — Real Estate Prototype. Buy, Sell & Rent Properties in India.</p>
+          <p>Real Estate Guru — Real Estate Prototype. Buy, Sell & Rent Properties in India.</p>
         </div>
       </div>
     </footer>

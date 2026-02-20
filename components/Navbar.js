@@ -16,12 +16,9 @@ export default function Navbar() {
         <div className="flex h-14 items-center justify-between">
           <a
             href="/"
-            className="flex items-center gap-2 text-xl font-bold tracking-tight text-neutral-900 hover:opacity-90"
+            className="flex items-center text-xl font-bold tracking-tight text-neutral-900 hover:opacity-90"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-lg font-bold text-white">
-              MB
-            </span>
-            <span className="hidden sm:inline">MagicBricks</span>
+            <span className="hidden sm:inline">Real Estate Guru</span>
           </a>
 
           <nav className="flex items-center gap-1">

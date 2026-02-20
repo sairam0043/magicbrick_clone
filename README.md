@@ -1,6 +1,6 @@
-# PropertyHub – MagicBricks-style Real Estate Prototype
+# PropertyHub – Real Estate Guru-style Real Estate Prototype
 
-A minimal real-estate listing MVP built with **Next.js (App Router)**, **React (JavaScript)**, **MongoDB + Mongoose**, and **Tailwind CSS**. Inspired by MagicBricks.
+A minimal real-estate listing MVP built with **Next.js (App Router)**, **React (JavaScript)**, **MongoDB + Mongoose**, and **Tailwind CSS**. Inspired by Real Estate Guru.
 
 ---
 
@@ -17,7 +17,7 @@ A minimal real-estate listing MVP built with **Next.js (App Router)**, **React (
 ## Project structure
 
 ```
-magic brickclone/
+real-estate-guru/
 ├── app/
 │   ├── api/
 │   │   ├── properties/
@@ -58,7 +58,7 @@ magic brickclone/
 ### 2. Install dependencies
 
 ```bash
-cd "c:\Users\saira\Downloads\magic brickclone"
+cd "c:\Users\saira\Downloads\real-estate-guru"
 npm install
 ```
 
@@ -67,7 +67,7 @@ npm install
 To use a custom MongoDB URL:
 
 - Copy `.env.example` to `.env.local`
-- Set `MONGODB_URI` (default is `mongodb://localhost:27017/magicbrickclone`)
+- Set `MONGODB_URI` (default is `mongodb://localhost:27017/realestateguru`)
 
 ```bash
 copy .env.example .env.local
@@ -119,7 +119,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Design notes
 
-- MagicBricks-inspired layout: navbar, search strip, card-based listings.
+- Real Estate Guru-inspired layout: navbar, search strip, card-based listings.
 - Primary color: orange (`#e85d04`) with hover states.
 - Responsive grid for listing and detail pages.
 - No authentication; focus on a simple, working prototype.
